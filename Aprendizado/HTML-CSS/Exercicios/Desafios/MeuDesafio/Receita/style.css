@@ -48,3 +48,7 @@ p{
     text-align:justify;
 
 }
+
+h2:hover{
+    color: Black;
+}
