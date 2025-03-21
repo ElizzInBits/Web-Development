@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+       /* a:visited{
+            color: green;
+        }*/
+
+        a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: cyan;
+        }
+
+        .importante::after{
+            content: '⇐';
+            color: blue;
+
+        }
+        .importante::before{
+            content: '⇒';
+            color:blue;
+        }
+
+        h1:hover{
+            color: green;
+        }
+        h1::before{
+            content: '[TESTE]';
+        }
+     
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li><a href="https://github.com/ElizzInBits" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.instagram.com/bett_y.png/" target="_blank" class="importante">Perfil do Intagram</a></li>
+        <li><a href="https://www.linkedin.com/in/elizabeth-guimar%C3%A3es-6a17a922b/" target="_blank">Perfil do Linkedin</a></li>
+    </ul>
+    
+</body>
+</html>
