@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+        }
+
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article{
+            background-color: rgba(166, 241, 216, 0.575);
+            padding: 1px 20px 20px;
+
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+        article > aside{
+            background-color: rgb(152, 168, 168);
+            text-align: right;
+            border-radius: 5px;
+            padding-right: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav> <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis animi amet, sed ullam similique modi autem voluptate soluta eum repellendus? Cum error dolorum unde veritatis cumque similique! Reprehenderit, rem eos?</p>
+                <aside>
+                        <p>Artigo escrito por alguém</p>
+                </aside>
+            </article>
+
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam, ad tenetur quo tempore eaque voluptatem doloribus amet, veniam nihil facilis hic et provident molestias eveniet non sed reprehenderit sapiente.</p>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Elizabeth</p>
+
+    </footer>
+  
+</body>
+</html>
