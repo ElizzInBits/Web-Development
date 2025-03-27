@@ -97,13 +97,19 @@ header > h1{
 
 nav{
     background-color:#1d262171;
-    border-radius: 5px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.534) ;
 }
 
 nav > ul > li > a{
     color: #F2DABD;
     font-weight: bold;
     text-decoration: none;
+
+}
+nav > ul > li{
+    margin-bottom: 5px;
 }
 
 nav > ul > li > a:hover{
@@ -144,4 +150,11 @@ footer{
     margin: 0px;
 
 }
+<<<<<<< HEAD
 >>>>>>> ada932e9cfdb4e2588d7cca1d9d55ec4e0e8d09c
+=======
+
+footer > p{
+    margin: 4px;
+}
+>>>>>>> 6c4afb7be3373354470bcf8164442c0ebbb4ecec
