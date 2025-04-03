@@ -1,0 +1,21 @@
+body{
+    background-color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+
+}
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(86, 158, 15);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: blue;
+}
